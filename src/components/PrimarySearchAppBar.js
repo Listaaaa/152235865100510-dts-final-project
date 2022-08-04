@@ -199,7 +199,7 @@ const PrimarySearchAppBar=() => {
       open={isMenuOpen}
       onClose={handleMenuClose}
     >
-      <MenuItem onClick={handleMenuClose}>Profile</MenuItem>
+      <MenuItem onClick={handleMenuClose}>Profil</MenuItem>
       <MenuItem onClick={onLogout}>LogOut</MenuItem>
     </Menu>
   );
@@ -265,7 +265,7 @@ const PrimarySearchAppBar=() => {
             component="div"
             sx={{ display: { xs: 'none', sm: 'block' } }}
           >
-            RECIPE
+            RESEPS
           </Typography>
           
           <Box sx={{ flexGrow: 1 }} />
